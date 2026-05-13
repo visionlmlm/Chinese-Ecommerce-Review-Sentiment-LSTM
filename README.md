@@ -175,31 +175,6 @@ data/raw/online_shopping_10_cats.csv
 
 其中 `label` 用于表示评论情感类别，模型最终完成二分类预测。
 
-## GitHub 上传建议
-
-建议上传核心代码和说明文件，训练日志、缓存文件可以不上传。
-
-推荐保留：
-
-```text
-src/
-data/raw/online_shopping_10_cats.csv
-data/processed/train.jsonl
-data/processed/test.jsonl
-models/vocab.txt
-models/best_model.pth
-README.md
-```
-
-建议忽略：
-
-```text
-__pycache__/
-logs/
-*.pyc
-```
-
-如果模型文件或数据集较大，也可以不上传 `models/best_model.pth` 和 `data/`，改为在 README 中说明如何重新生成。
 
 ## 后续优化方向
 
