@@ -184,6 +184,3 @@ data/raw/online_shopping_10_cats.csv
 - 使用预训练词向量或 Transformer 模型提升效果；
 - 增加 `requirements.txt` 方便安装依赖。
 
-## License
-
-本项目仅用于学习和课程实验，可根据需要自行补充开源许可证。
